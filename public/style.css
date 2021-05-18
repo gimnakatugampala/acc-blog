@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ccc;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: #525CB2;
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #525CB2;
+
+}
+
+header ul{
+    margin-right: 10px;
+}
+
+header ul li{
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header #logo a{
+    font-size: 40px;
+    color: #525CB2;
+}
+
+#blogs{
+    margin: 60px;
+}
+
+#about{
+    margin:60px;
+    color: #525CB2;
+}
+
+#notfound{
+    margin: 60px;
+    text-align: center;
+    font-size: 70px;
+}
+
+#create{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#create h3{
+    padding:10px;
+}
+
+#create form input,textarea{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#title{
+    display: flex;
+}
+
+#title h4{
+    font-size: 40px;
+}
+
+#title p{
+    margin: 20px;
+}
+
+.delete{
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.blogs{
+    padding: 10px;
+}
+
+button{
+    background: #525CB2;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.para{
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+}
