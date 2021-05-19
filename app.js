@@ -6,7 +6,7 @@ const blogRouter = require('./router/blogRouter')
 const app = express();
 
 // Connect to db
-const dbURI = 'mongodb+srv://Gimna:9922557gimna@nodetuts.qlhc3.mongodb.net/acc-blogs?retryWrites=true&w=majority';
+
 mongoose.connect(dbURI,{useNewUrlParser:true,useUnifiedTopology:true})
 .then((result) => app.listen(3000))
 .catch(err => console.log(err))
